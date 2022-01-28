@@ -1,0 +1,79 @@
+@import url(./vendor/normalize.css);
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 70px 0 0 0;
+  padding: 0;
+}
+
+.button {
+  border: 0;
+  outline: 0;
+  background-color: blueviolet;
+  padding: 10px 15px;
+  color: white;
+  font-size: 14px;
+  margin: 0 0 100px 0;
+  cursor: pointer;
+}
+
+.duck-image {
+  width: 400px;
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  border: 0;
+  border-radius: 10px;
+}
+
+.popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /*transition: visibility 0.4s ease-out;*/
+}
+
+.popup__visible {
+  visibility: visible;
+}
+
+.popup__container {
+  width: 100%;
+  max-width: 270px;
+  min-height: 240px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 0;
+  border-radius: 20px;
+}
+
+.page__overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+}
