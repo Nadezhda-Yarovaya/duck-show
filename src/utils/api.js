@@ -1,14 +1,13 @@
-const BASE_URL = 'https://random-d.uk/api/random';
+const BASE_URL = 'https://random-d.uk/api/v2/random';
 
 export function Api() {
     return fetch(`${BASE_URL}`, {
         method: "GET",
-        //mode: 'no-cors',
         headers: {
-            "Content-Type": "application/json",
-            "Accept": "application/json"
-          }
-        })
+          'Content-Type': 'application/json',
+          'Host': 'Client-ID [my-client-id]'
+        }
+      })
         .then((res) => {
             if (res.ok) {
             return res.json();
@@ -16,6 +15,6 @@ export function Api() {
             return Promise.reject(`Ошибка такова: ${res.status}`);
             
           })
-          .catch(err => console.log("ошибка при попытке fetch : " + err));
+          .catch(err => console.log("ошибка при попытке fetch : ", err));
       
     }
