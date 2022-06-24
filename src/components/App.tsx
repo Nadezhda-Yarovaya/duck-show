@@ -4,11 +4,14 @@ import Popup from './Popup';
 import { Api } from '../utils/api.js';
 import { useState, useEffect } from 'react';
 import importedPic from '../images/duck-default.jpg';
+import { useWindowSize } from '../hooks/useResize';
 
 function App() {
   const [currentPicture, setCurrentPicture] = useState(importedPic);
   const [isOpen, setIsOpen] = useState(false);
   const [loadingMessage, setLoadingMessage] = useState('');
+  const [width, height] = useWindowSize();
+
   // type script
   let tsString: string | number = 'string'; // union type условие - наывается
   //console.log(tsString);
@@ -75,6 +78,8 @@ function App() {
         isOpen={isOpen}
         loadingMessage={loadingMessage}
         closePopup={closePopup}
+        width={width}
+        height={height}
       />
     </>
   );

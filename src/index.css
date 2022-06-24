@@ -48,8 +48,6 @@
   background-color: white;
   width: 100%;
   position: fixed;
-  top: 30%;
-  left: 40%;
   border-radius: 20px;
   /*transition: visibility 0.4s ease-out;*/
 }
@@ -66,7 +64,7 @@
 }
 
 .page__overlay {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.85);
   position: fixed;
   left: 0;
   right: 0;

@@ -13,9 +13,13 @@ function Popup(props) {
       document.removeEventListener('keydown', closeByEsc);
     };
   }, []);
+
+  
+  const padTop = ((props.height - 240) / 2.5) + 'px';
+  const padLeft = ((props.width - 270) / 2) + 'px';
   return (
     <>
-      <div className={`popup ${props.isOpen && 'popup__visible'}`}>
+      <div style={{top: padTop, left: padLeft}} className={`popup ${props.isOpen && 'popup__visible'}`}>
         <p>{props.loadingMessage}</p>
       </div>
     </>
