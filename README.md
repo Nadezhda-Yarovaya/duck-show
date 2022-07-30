@@ -10,5 +10,5 @@ HTML, CSS, JavaScript, React.js, API fetch, Redux
 **Требования**
 API Unsplash
 
-**GH Pages **
+**GH Pages**
 https://nadezhda-yarovaya.github.io/duck-show/
