@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/duck-show/static/css/main.905e0f9e.css",
-    "main.js": "/duck-show/static/js/main.c3d6b739.js",
+    "main.css": "/duck-show/static/css/main.eac9968b.css",
+    "main.js": "/duck-show/static/js/main.ddeb3123.js",
     "static/js/787.4d1d9496.chunk.js": "/duck-show/static/js/787.4d1d9496.chunk.js",
-    "static/media/duck-default.jpg": "/duck-show/static/media/duck-default.7d374807d90251f085e9.jpg",
     "index.html": "/duck-show/index.html",
-    "main.905e0f9e.css.map": "/duck-show/static/css/main.905e0f9e.css.map",
-    "main.c3d6b739.js.map": "/duck-show/static/js/main.c3d6b739.js.map",
+    "main.eac9968b.css.map": "/duck-show/static/css/main.eac9968b.css.map",
+    "main.ddeb3123.js.map": "/duck-show/static/js/main.ddeb3123.js.map",
     "787.4d1d9496.chunk.js.map": "/duck-show/static/js/787.4d1d9496.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.905e0f9e.css",
-    "static/js/main.c3d6b739.js"
+    "static/css/main.eac9968b.css",
+    "static/js/main.ddeb3123.js"
   ]
 }
