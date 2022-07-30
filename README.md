@@ -5,16 +5,10 @@
 Тренировка fetch и использование API
 
 **Технологии**
-HTML, css, React.js, JavaScript
+HTML, CSS, JavaScript, React.js, API fetch, Redux
 
 **Требования**
-АПИ отсюда: https://random-d.uk/api
+API Unsplash
 
 **GH Pages **
 https://nadezhda-yarovaya.github.io/duck-show/
-
-_Особые пометки_
-В браузерах включается CORS (в Постмане работает)
-Т.к. не я контролирую сервер, то я просто выключила проверку CORS в браузере. Для корректной работы приложения это нужно будет сделать.
-Для Оперы я использовала команду launcher.exe --disable-web-security --user-data-dir="c:\nocorsbrowserdata"
-в папке с Оперой (в Командной строке от администратора)
